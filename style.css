@@ -1,0 +1,80 @@
+@font-face {
+    font-family:poppins ;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+body{
+    font-family: poppins;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+section{
+    padding: 50px 0;
+}
+.welcome-sec{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.orange-color{
+    color: orange;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%; 
+}
+.link-btn{
+    background-image: linear-gradient(#FFA12B,#FF6C46);
+    padding: 10px 40px;
+    color: #5A1A87;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 5%;
+}
+.developer{
+    box-shadow: 0px 0px 40px black;
+    border-radius: 10px;
+    border-left: 7px solid;
+    padding-right: 5%;
+    margin: 50px;
+}
+.web-head{
+    font-size: 40px;
+}
+.experience-web{
+    padding: 0 5%;
+    display: flex;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.full-dev{
+    border-image: linear-gradient(#FFA12B,#FF6C46);
+    border-image-slice: 1;
+}
+.babby-dev{
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
